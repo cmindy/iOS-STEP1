@@ -85,3 +85,11 @@ for i in 1...9 {
 }
 
 
+for i in 2...9 {
+    if i % 2 == 1 {
+        print("=======\(i)단=======")
+        for j in 1...9 {
+            print(i * j)
+        }
+    }
+}
