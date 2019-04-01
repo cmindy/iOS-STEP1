@@ -70,4 +70,18 @@ print(result)
 result = num * 9
 print(result)
 
-print("=======5단=======")
+print("=======6단=======")
+
+var i = 1
+while (i < 10) {
+    print(i * 6)
+    i = i + 1 //i값을 증가
+}
+
+print("=======7단=======")
+
+for i in 1...9 {
+    print(i * 7)
+}
+
+
