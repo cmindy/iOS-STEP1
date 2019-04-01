@@ -50,23 +50,24 @@ print(result)
 
 
 print("=======5단=======")
-let number = 5
-var result = 0
-result = number * 1
+let num = 5
+result = num * 1
 print(result)
-result = number * 2
+result = num * 2
 print(result)
-result = number * 3
+result = num * 3
 print(result)
-result = number * 4
+result = num * 4
 print(result)
-result = number * 5
+result = num * 5
 print(result)
-result = number * 6
+result = num * 6
 print(result)
-result = number * 7
+result = num * 7
 print(result)
-result = number * 8
+result = num * 8
 print(result)
-result = number * 9
+result = num * 9
 print(result)
+
+print("=======5단=======")
