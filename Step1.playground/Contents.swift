@@ -93,3 +93,35 @@ for i in 2...9 {
         }
     }
 }
+
+
+
+print("===========")
+
+var gugudan = [Int].init(repeating: 0, count: 9)
+for i in 1...9 {
+    gugudan[i-1] = 2 * i
+}
+
+
+print("=====2단=====")
+for i in gugudan {
+    print(i)
+}
+
+
+//gugu() 함수 선언부(callee)
+func gugu(number : Int) {
+    var guguArray: [Int] = []
+    for i in 1...9 {
+        guguArray.append(number * i)
+    }
+    
+    print("=====\(number)단====")
+    for i in guguArray {
+        print(i)
+    }
+}
+
+//gugu() 함수 호출부(caller)
+gugu(number: 4)
